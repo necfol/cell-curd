@@ -10,9 +10,13 @@
 		F10658AD1F5D824B00933054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658AC1F5D824B00933054 /* main.m */; };
 		F10658B01F5D824B00933054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658AF1F5D824B00933054 /* AppDelegate.m */; };
 		F10658B31F5D824B00933054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658B21F5D824B00933054 /* ViewController.m */; };
-		F10658B61F5D824B00933054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10658B41F5D824B00933054 /* Main.storyboard */; };
 		F10658B81F5D824B00933054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10658B71F5D824B00933054 /* Assets.xcassets */; };
 		F10658BB1F5D824B00933054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10658B91F5D824B00933054 /* LaunchScreen.storyboard */; };
+		F10658DB1F5EE8BE00933054 /* XMGDealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658C31F5EE8BE00933054 /* XMGDealsViewController.m */; };
+		F10658DC1F5EE8BE00933054 /* XMGDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658C51F5EE8BE00933054 /* XMGDeal.m */; };
+		F10658DD1F5EE8BE00933054 /* XMGDealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F10658C71F5EE8BE00933054 /* XMGDealCell.m */; };
+		F10658DE1F5EE8BE00933054 /* XMGDealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10658C81F5EE8BE00933054 /* XMGDealCell.xib */; };
+		F10658EB1F5EE95A00933054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10658EA1F5EE95A00933054 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +26,17 @@
 		F10658AF1F5D824B00933054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F10658B11F5D824B00933054 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F10658B21F5D824B00933054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F10658B51F5D824B00933054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F10658B71F5D824B00933054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10658BA1F5D824B00933054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10658BC1F5D824B00933054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10658C21F5EE8BE00933054 /* XMGDealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDealsViewController.h; sourceTree = "<group>"; };
+		F10658C31F5EE8BE00933054 /* XMGDealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDealsViewController.m; sourceTree = "<group>"; };
+		F10658C41F5EE8BE00933054 /* XMGDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDeal.h; sourceTree = "<group>"; };
+		F10658C51F5EE8BE00933054 /* XMGDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDeal.m; sourceTree = "<group>"; };
+		F10658C61F5EE8BE00933054 /* XMGDealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDealCell.h; sourceTree = "<group>"; };
+		F10658C71F5EE8BE00933054 /* XMGDealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDealCell.m; sourceTree = "<group>"; };
+		F10658C81F5EE8BE00933054 /* XMGDealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGDealCell.xib; sourceTree = "<group>"; };
+		F10658EA1F5EE95A00933054 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +69,18 @@
 		F10658AA1F5D824B00933054 /* cell-curd */ = {
 			isa = PBXGroup;
 			children = (
+				F10658C21F5EE8BE00933054 /* XMGDealsViewController.h */,
+				F10658C31F5EE8BE00933054 /* XMGDealsViewController.m */,
+				F10658C41F5EE8BE00933054 /* XMGDeal.h */,
+				F10658C51F5EE8BE00933054 /* XMGDeal.m */,
+				F10658C61F5EE8BE00933054 /* XMGDealCell.h */,
+				F10658C71F5EE8BE00933054 /* XMGDealCell.m */,
+				F10658C81F5EE8BE00933054 /* XMGDealCell.xib */,
 				F10658AE1F5D824B00933054 /* AppDelegate.h */,
 				F10658AF1F5D824B00933054 /* AppDelegate.m */,
 				F10658B11F5D824B00933054 /* ViewController.h */,
 				F10658B21F5D824B00933054 /* ViewController.m */,
-				F10658B41F5D824B00933054 /* Main.storyboard */,
+				F10658EA1F5EE95A00933054 /* Main.storyboard */,
 				F10658B71F5D824B00933054 /* Assets.xcassets */,
 				F10658B91F5D824B00933054 /* LaunchScreen.storyboard */,
 				F10658BC1F5D824B00933054 /* Info.plist */,
@@ -138,8 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10658BB1F5D824B00933054 /* LaunchScreen.storyboard in Resources */,
+				F10658EB1F5EE95A00933054 /* Main.storyboard in Resources */,
 				F10658B81F5D824B00933054 /* Assets.xcassets in Resources */,
-				F10658B61F5D824B00933054 /* Main.storyboard in Resources */,
+				F10658DE1F5EE8BE00933054 /* XMGDealCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,20 +172,15 @@
 				F10658B31F5D824B00933054 /* ViewController.m in Sources */,
 				F10658B01F5D824B00933054 /* AppDelegate.m in Sources */,
 				F10658AD1F5D824B00933054 /* main.m in Sources */,
+				F10658DB1F5EE8BE00933054 /* XMGDealsViewController.m in Sources */,
+				F10658DD1F5EE8BE00933054 /* XMGDealCell.m in Sources */,
+				F10658DC1F5EE8BE00933054 /* XMGDeal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F10658B41F5D824B00933054 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F10658B51F5D824B00933054 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F10658B91F5D824B00933054 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
